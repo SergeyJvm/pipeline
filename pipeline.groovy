@@ -5,6 +5,11 @@ pipeline {
             label 'мастер || master'
         }
     }
+    options{
+        // Increase the memory limit to 8 GB
+        // This line will set -Xmx4g as the maximum heap size for the JVM
+        jvmArgs: '-Xmx8g'
+    }
 
     stages {
 
