@@ -8,7 +8,7 @@ pipeline {
 
     stages {
 
-        stage(Download idea community) {
+        stage("Download idea community") {
             sh "mkdir -p sberide/android"
             dir(sberide) {
                 script {
