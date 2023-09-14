@@ -9,7 +9,6 @@ pipeline {
     stages {
 
         stage("Download idea community") {
-            sh "mkdir -p sberide/android"
             dir(sberide) {
                 script {
                     //clean workspace
