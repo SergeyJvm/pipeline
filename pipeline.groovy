@@ -6,9 +6,9 @@ pipeline {
         }
     }
     options{
-        // Increase the memory limit to 8 GB
+        // Increase the memory limit to 4 GB
         // This line will set -Xmx4g as the maximum heap size for the JVM
-        jvmArgs: '-Xmx8g'
+        jvmArgs: '-Xmx4g'
     }
 
     stages {
