@@ -5,10 +5,6 @@ pipeline {
             label 'мастер || master'
         }
     }
-    options {
-        // Configure Jenkins JVM options
-        javaOpts('-Xmx4g') // Replace '4g' with the desired heap size (e.g., '-Xmx4g' for 4GB)
-    }
 
     stages {
 
