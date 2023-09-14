@@ -1,5 +1,10 @@
 pipeline {
 
+    agent {
+        node {
+            label "мастер"
+        }
+    }
 
     stages {
 
