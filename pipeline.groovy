@@ -18,7 +18,7 @@ pipeline {
                         //download
                         git branch: '231.9225', credentialsId: 'extreme_0788', url: 'https://github.com/JetBrains/intellij-community.git'
                         sh "ls -la"
-                        sh "./getPlugins.cmd"
+                        sh "./getPlugins.bat"
                         sh "ls -la"
                     }
                 }
