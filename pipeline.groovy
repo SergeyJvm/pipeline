@@ -2,7 +2,7 @@ pipeline {
 
     agent {
         node {
-            label "Linux_Default"
+            label "master"
         }
     }
 
