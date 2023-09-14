@@ -10,7 +10,7 @@ pipeline {
 
         stage("Download idea community") {
             steps {
-                sh "mkdir sberide"
+                sh "mkdir -p sberide"
                 dir('sberide') {
                     script {
                         //clean workspace
