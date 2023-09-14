@@ -11,7 +11,7 @@ pipeline {
         stage("Download idea community") {
             steps {
                 sh "mkdir -p sberide/android"
-                dir(sberide) {
+                dir('sberide') {
                     script {
                         //clean workspace
                         cleanWs disableDeferredWipeout: true, deleteDirs: true
